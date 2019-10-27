@@ -1,0 +1,91 @@
+{
+    "extends": "tslint:recommended",
+    "rules": {
+        "max-line-length": {
+            "options": [
+                180
+            ]
+        },
+        "eofline": false,
+        "arrow-parens": [
+            true,
+            "ban-single-arg-parens"
+        ],
+        "no-empty": false,
+        "object-literal-sort-keys": false,
+        "array-type": [
+            true,
+            "generic"
+        ],
+        "typedef": [
+            true,
+            "parameter",
+            "call-signature",
+            "property-declaration",
+            "variable-declaration",
+            "member-variable-declaration",
+            "object-destructuring"
+        ],
+        "member-access": [
+            true,
+            "no-public"
+        ],
+        "trailing-comma": [
+            false,
+            {
+                "multiline": "always",
+                "singleline": "never"
+            }
+        ],
+        "quotemark": [
+            true,
+            "single",
+            "jsx-double"
+        ],
+        "semicolon": [
+            true,
+            "always",
+            "ignore-bound-class-methods"
+        ],
+        "new-parens": true,
+        "no-arg": true,
+        "no-bitwise": true,
+        "no-conditional-assignment": true,
+        "no-consecutive-blank-lines": false,
+        "no-console": {
+            "severity": "warning",
+            "options": [
+                "debug",
+                "info",
+                "log",
+                "time",
+                "timeEnd",
+                "trace"
+            ]
+        },
+        "member-ordering": [
+            true,
+            {
+                "order": [
+                    "private-static-field",
+                    "private-instance-field",
+                    "private-constructor",
+                    "public-static-field",
+                    "public-instance-field",
+                    "public-constructor",
+                    "public-instance-method",
+                    "protected-instance-method",
+                    "private-instance-method"
+                ],
+                "alphabetize": false
+            }
+        ]
+    },
+    "jsRules": {
+        "max-line-length": {
+            "options": [
+                180
+            ]
+        }
+    }
+}
