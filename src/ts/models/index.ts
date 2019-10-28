@@ -1,1 +1,1 @@
-export {User, IUser} from './User';
+export {IPokemonPaginationResult, IPokemonPagination} from './Pagination';

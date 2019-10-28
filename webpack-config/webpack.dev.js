@@ -39,7 +39,7 @@ module.exports = WebpackMerge(WebpackConfig, {
         ]
     },
     devServer: {
-        hot: true,
+        hot: false,
         contentBase: path.join(__dirname, '../', 'dist'),
         compress: true,
         port: 9000,
@@ -48,6 +48,6 @@ module.exports = WebpackMerge(WebpackConfig, {
         clientLogLevel: 'silent'
     },
     plugins: [
-        new Webpack.HotModuleReplacementPlugin()
+        //new Webpack.HotModuleReplacementPlugin()
     ]
 });

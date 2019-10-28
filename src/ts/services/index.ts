@@ -1,0 +1,1 @@
+export { PokemonPaginationService } from './pagination.service';
